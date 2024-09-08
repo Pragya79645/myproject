@@ -53,23 +53,6 @@ h1:hover{
     width: 100vw;
     height: 100vh;
 }
-.front{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: #8f1212;
-    color: antiquewhite;
-}
-.back{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: #8f1212;
-    color: antiquewhite;
-    transform: rotateY('180deg');
-}
 .myImage{
    height: 350px;
    width: 300px;
