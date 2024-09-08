@@ -51,9 +51,24 @@ h1:hover{
     background-image: url(.//img.avif);
     object-fit: cover;
     width: 100vw;
-    height: 100vh;
+    height: 101vh;
 }
 .myImage{
    height: 350px;
    width: 300px;
     }
+@media (min-width: 1200px) {
+    .container {
+         padding: 50px;
+    }
+}
+@media (min-width: 992px) and (max-width:1199px) {
+    .container {
+         padding: 40px;
+    }
+}
+@media (min-width: 767px) {
+    .container {
+         padding: 30px;
+    }
+}
