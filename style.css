@@ -1,0 +1,76 @@
+.container{
+    display:flex;
+    gap:10px
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color:gold;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+    box-shadow: 0 5px 10px 0 #8f1212;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+
+}
+.card + .card{
+    margin-left:-10px;
+    }
+    .card:hover{
+        transform: rotate(180deg);
+    }
+    .card:hover{
+        z-index: 1;
+    }
+    .card{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        background-color: rgba(0, 0, 0, 0.979);
+        color: aliceblue;
+        transition: 2s ease-in 1s ease-out ;
+    }
+h1:hover{
+    background-color: rgba(255, 217, 0, 0.694);
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-image: url(.//img.avif);
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #8f1212;
+    color: antiquewhite;
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #8f1212;
+    color: antiquewhite;
+    transform: rotateY('180deg');
+}
+.myImage{
+   height: 350px;
+   width: 300px;
+    }
